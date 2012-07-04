@@ -412,6 +412,7 @@
 				604B7FE915A4957E00444040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		604B7FEA15A4957E00444040 /* Build configuration list for PBXNativeTarget "teamcitytestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				604B7FEC15A4957E00444040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
