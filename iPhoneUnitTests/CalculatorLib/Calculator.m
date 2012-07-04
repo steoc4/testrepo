@@ -124,7 +124,7 @@ const NSString *Clear     = @"C";
                double operand2 = [[self displayValue] doubleValue];
                switch ([Operators rangeOfString: _operator].location) {
                   case 0:
-                     _operand = _operand - operand2;
+                     _operand = _operand + operand2;
                      break;
                   case 1:
                      _operand = _operand + operand2;

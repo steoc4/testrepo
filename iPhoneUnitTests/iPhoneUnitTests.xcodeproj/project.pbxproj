@@ -79,7 +79,7 @@
 		17B57ABE13D901CE0096B889 /* iOS_CalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_CalcTests-Info.plist"; sourceTree = "<group>"; };
 		17B57AC013D901CE0096B889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B57AC613D901CE0096B889 /* iOS_CalcTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_CalcTests-Prefix.pch"; sourceTree = "<group>"; };
-		17B57ACA13D903090096B889 /* iOS_CalcApplicationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; path = iOS_CalcApplicationTests.h; sourceTree = "<group>"; };
+		17B57ACA13D903090096B889 /* iOS_CalcApplicationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_CalcApplicationTests.h; sourceTree = "<group>"; };
 		17B57ACB13D903090096B889 /* iOS_CalcApplicationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS_CalcApplicationTests.m; sourceTree = "<group>"; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -682,6 +682,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Calc/iOS_Calc_Prefix.pch;
 				INFOPLIST_FILE = "iOS_Calc/iOS_Calc-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Calc;
 			};
 			name = Debug;
@@ -709,7 +710,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
